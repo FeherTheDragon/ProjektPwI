@@ -1,0 +1,13 @@
+Strony dostępne z poziomu użytkownika:
+    index.html
+    logowanie.html
+    moj_profil.html
+    powiadomienia.html
+    regulamin.html
+    rejestracja.html
+    strona_glowna.html
+    wydarzenia.html
+    
+Strony dostępne z poziomu moderatora:
+    ustawienia.html
+    uzytkownicy.html

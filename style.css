@@ -1,0 +1,212 @@
+html, body{
+    margin:0;
+    font-family: Calibri;
+    background:#333b3e;
+    color:lightgrey;
+}
+
+header{
+    background:#3e555e;
+    color:lightgrey;
+    text-align:center;
+}
+
+h1{
+    margin:0;
+    font-size:30px;
+    color:lightgrey;
+}
+
+header > h5{
+    margin:0;
+    padding:0;
+}
+
+#main_glowny{
+    display:flex;
+}
+
+#main_menu{
+    display:flex;
+    justify-content:  space-between;
+    background:#acbcb1;
+}
+
+nav{
+    padding-left:10px;
+}
+
+.menu_ul{
+    list-style-type: none; 
+    padding:0;
+    margin:0;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+li{
+    display:inline-block;
+    margin:10px 10px 10px 0;
+    color:lightgrey;
+    background-color:#3e555e;
+    padding:10px;
+    box-shadow:3px 3px black;
+}
+
+li:hover{
+    background-color:#333333;
+}
+
+.panel_glowny{
+    flex:3;
+    background:#586f77;
+    padding:5px;
+}
+
+.panel_prawy{
+    flex:1;
+    background:#3e555e;
+}
+
+footer{
+    color:white;
+    text-align:right;
+}
+
+.okno_aktual{
+    background-color:#acbcb1;
+    margin:10px;
+    border:2 solid black;
+    color:black;
+    padding:10px;
+    box-shadow:-2px -2px #333b3e;
+}
+
+h3{
+    margin:0;
+    padding:0;
+}
+
+.tytul_data{
+    display:flex;
+    justify-content:  space-between;
+    background-color:#dddddd;
+    padding:5px;
+}
+
+footer{
+    margin:0;
+    padding:0;
+}
+
+#stopka_p{
+    margin:0;
+    padding:10px;
+    color:lightgrey;
+}
+
+h2{
+    text-align:center;
+    font-size:20px;
+}
+
+p{
+    margin:0;
+    padding:0;
+}
+
+.wydarzenie{
+    display:flex;
+    flex-direction:column;
+    color:#aa3333;
+    padding:5px 10px;
+}
+
+.dodaj_wpis{
+    background-color:#acbcb1;
+    margin:10px;
+    border:2 solid black;
+    color:black;
+    padding:10px;
+    box-shadow:-2px -2px #333b3e;
+    width:50%;
+}
+
+form{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.wysrodkowanie{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.h3_dodaj_wpis{
+    text-align:center;
+}
+
+.panel_uzytkownika{
+    background-color:#acbcb1;
+    margin:5px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.pu_avatar{
+    height:100px;
+    width:100px;
+    margin:10px;
+}
+
+.pu_dane{
+    margin:10px;
+    color:black;
+    padding:10px 0;
+}
+
+.pu_dane_avatar{
+    display:flex;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+}
+
+a{
+    color:white;
+}
+
+.uzytkownicy{
+    background-color:#acbcb1;
+    margin:10px;
+    border:2 solid black;
+    color:black;
+    padding:10px;
+    box-shadow:-2px -2px #333b3e;
+    display:flex;
+}
+
+button{
+    margin:10px 10px 10px 0;
+    color:lightgrey;
+    background-color:#3e555e;
+    padding:10px;
+    box-shadow:3px 3px black;
+    border:0;
+}
+
+.ustawienie{
+    background-color:#acbcb1;
+    margin:10px;
+    border:2 solid black;
+    color:black;
+    padding:10px;
+    box-shadow:-2px -2px #333b3e;
+    display:flex;
+    flex-direction:column;
+}
